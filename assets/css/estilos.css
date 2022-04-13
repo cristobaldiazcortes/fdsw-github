@@ -1,5 +1,5 @@
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Anek Bangla', sans-serif;
 }
 
 /* Hero Section */
@@ -24,7 +24,7 @@ body {
 
 #Contacto form label {
   font-weight: 700;
-  color: #373a3c;
+  color: #090b0c;
 }
 
 @media (max-width: 768px) {
@@ -35,3 +35,4 @@ body {
   .navbar-brand{
     width: 100px;
   }
+ 
