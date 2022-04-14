@@ -10,6 +10,17 @@ body {
   background-size: cover;
   background-position: left;
 }
+.navbar-dark .navbar-nav .nav-link {
+  color: #f9fafb;
+}
+button.btn.btn-lg.btn-outline-info.text-light.me-4 {
+  background-color: #842029;
+  border-color: #ca700a;
+}
+.btn-info:hover {
+  background-color: #842029;
+  border-color: #ca700a;
+}
 
 /* Mis trabajos */
 
@@ -19,12 +30,19 @@ body {
   background-size: cover;
   background-position: center;
 }
-
+.btn-outline-info {
+  color: #842029;
+  border-color: #084298;
+} 
 /* Contacto */
 
 #Contacto form label {
   font-weight: 700;
   color: #090b0c;
+}
+.btn-info {
+  background-color: #842029;
+  border-color: #ca700a;
 }
 
 @media (max-width: 768px) {
@@ -35,4 +53,3 @@ body {
   .navbar-brand{
     width: 100px;
   }
- 
