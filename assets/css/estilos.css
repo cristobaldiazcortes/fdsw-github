@@ -1,6 +1,8 @@
 body {
   font-family: 'Anek Bangla', sans-serif;
 }
+h3 { color: #842029;
+}
 
 /* Hero Section */
 
@@ -22,6 +24,11 @@ button.btn.btn-lg.btn-outline-info.text-light.me-4 {
   border-color: #ca700a;
 }
 
+button.btn.btn-lg.btn-info.text-light {
+  background-color: #842029;
+  border-color: #ca700a;
+}
+
 /* Mis trabajos */
 
 #Mis-trabajos .image-top {
@@ -31,16 +38,25 @@ button.btn.btn-lg.btn-outline-info.text-light.me-4 {
   background-position: center;
 }
 .btn-outline-info {
-  color: #842029;
-  border-color: #084298;
+  color: #f8f9fa;
+  background-color:#842029;
+  border-color: #ca700a;
 } 
+.btn-outline-info:hover {
+  color: #f8f9fa;
+  background-color:#842029;
+  border-color: #ca700a;
+
+  
+
 /* Contacto */
 
 #Contacto form label {
   font-weight: 700;
   color: #090b0c;
 }
-.btn-info {
+
+button.btn.btn-info.text-light {
   background-color: #842029;
   border-color: #ca700a;
 }
