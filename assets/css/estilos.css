@@ -3,7 +3,9 @@ body {
 }
 h3 { color: #842029;
 }
-
+a {
+  display: contents;
+}
 /* Hero Section */
 
 #Hero-Section {
